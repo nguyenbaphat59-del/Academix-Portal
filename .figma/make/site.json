@@ -1,0 +1,10 @@
+{
+  "description": "Streamline your academic life with a student portal that offers a daily schedule overview and a feed of shared study materials for collaborative learning.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
