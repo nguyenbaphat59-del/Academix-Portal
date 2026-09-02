@@ -55,7 +55,7 @@ export default function AuthPage({ onAuthSuccess }: AuthPageProps) {
 
     // --- SENT API TO BACKEND ---
     try {
-      await fetch('https://academix-portal-1.onrender.com', {
+      await fetch('https://academix-portal-2.onrender.com/api/users', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(newUser)

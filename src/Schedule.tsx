@@ -62,7 +62,7 @@ export default function Schedule({ userId }: { userId: string }) {
   // --- HÀM ĐỒNG BỘ API SANG BACKEND ---
   const syncToBackend = async (updatedClasses: any[]) => {
     try {
-      await fetch('https://academix-portal-1.onrender.com/api/schedule', {
+      await fetch('https://academix-portal-2.onrender.com', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ userId, classes: updatedClasses })

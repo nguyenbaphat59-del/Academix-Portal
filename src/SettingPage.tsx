@@ -71,7 +71,7 @@ export default function SettingPage({ user, setUser }: { user: any; setUser: any
   const handleEmailToggle = async (val: boolean) => {
     setEmailNotifs(val);
     try {
-      await fetch('https://academix-portal-1.onrender.com/api/settings', {
+      await fetch('https://academix-portal-2.onrender.com/api/settings', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ userId: user.id, emailNotifs: val })

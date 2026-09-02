@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "figma-make-app",
   "private": true,
   "version": "1.0.0",
@@ -24,24 +23,5 @@
     "tailwindcss": "^4.0.0",
     "typescript": "^5.7.0",
     "vite": "^8.0.0"
-=======
-  "name": "academix-backend",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "dependencies": {
-    "cors": "^2.8.6",
-    "dotenv": "^17.4.2",
-    "express": "^5.2.1",
-    "node-cron": "^4.6.0",
-    "nodemailer": "^9.0.5"
->>>>>>> a52b646cba873275cc51b9ecc9c2b721b4d51d62
   }
 }
