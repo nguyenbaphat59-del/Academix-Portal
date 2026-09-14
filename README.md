@@ -42,7 +42,7 @@ Academix-Portal/
 
 **1. Clone the repository**
 ```bash
-git clone [https://github.com/nguyenbaphat59-del/Academix-Portal.git](https://github.com/nguyenbaphat59-del/Academix-Portal.git)
+git clone https://github.com/nguyenbaphat59-del/Academix-Portal.git
 cd Academix-Portal
 ```
 
